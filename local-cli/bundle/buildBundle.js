@@ -58,7 +58,7 @@ function buildBundle(
     entryFile: args.entryFile,
     sourceMapUrl,
     dev: args.dev,
-    minify: !args.dev,
+    minify: false,
     platform: args.platform,
   };
 
